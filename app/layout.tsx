@@ -19,6 +19,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: SITE.title,
   description: SITE.description,
+  icons: {
+    icon: "/images/trappist1ai-logo.jpg",
+  },
 }
 
 export default function RootLayout({
