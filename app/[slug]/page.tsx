@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                   src={`/images/${product.slug}-logo.jpg`}
                   alt={`${product.name} Logo`}
                   fill
-                  className="object-cover"
+                  className={product.slug === "licklider" ? "object-contain" : "object-cover"}
                 />
                 {/* Subtle overlay glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-black/20" />
