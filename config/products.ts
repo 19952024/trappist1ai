@@ -41,7 +41,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     name: "Licklider Labs",
-    slug: "Licklider Labs",
+    slug: "licklider",
     tagline: "You Don’t Need More GPUs",
     description: "GPU waste detection, execution enforcement, and provable cloud cost reduction.",
     features: ["Resource Profiler", "Execution Gate", "Savings Receipt"],
