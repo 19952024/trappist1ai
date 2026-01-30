@@ -1,6 +1,6 @@
 export type Product = {
   name: string
-  slug: "vizrec" | "qorscend" | "anivrse" | "igraverse" | "fanstosee"
+  slug: "vizrec" | "qorscend" | "licklider" | "igraverse" | "fanstosee"
   tagline: string
   description: string
   features: string[]
@@ -40,18 +40,18 @@ export const PRODUCTS: Product[] = [
     logo: "/images/qorscend-logo.jpg",
   },
   {
-    name: "Anivrse",
-    slug: "anivrse",
+    name: "Licklider",
+    slug: "licklider",
     tagline: "Animate your imagination",
     description: "Create anime scenes & trailers. Publish, grow fans, and monetize.",
     features: ["Text-to-anime", "Character builder", "Creator economy"],
     links: {
-      app: "https://your-anivrse-app-url.com",
-      docs: "https://your-anivrse-docs.com",
-      demo: "https://your-anivrse-demo.com",
+      app: "https://your-licklider-app-url.com",
+      docs: "https://your-licklider-docs.com",
+      demo: "https://your-licklider-demo.com",
     },
     colors: { base: "#FF7BC0", gradientFrom: "#2a1430", gradientTo: "#14121f", glow: "rgba(255,123,192,0.35)" },
-    logo: "/images/anivrse-logo.jpg",
+    logo: "/images/licklider-logo.jpg",
   },
   {
     name: "Igraverse",
