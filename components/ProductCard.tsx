@@ -60,13 +60,13 @@ export default function ProductCard({ product }: { product: Product }) {
                 style={{ background: `radial-gradient(circle at center, ${product.colors.base}, transparent)` }}
               />
 
-              {/* Logo image - object-contain so full logo fits in circle; extra padding for Licklider so text isn't clipped */}
-              <div className={`absolute inset-0 ${product.slug === "licklider" ? "p-6" : "p-4"}`}>
+              {/* Logo image - Licklider: fill circle with no padding; others: contain with padding */}
+              <div className={`absolute inset-0 ${product.slug === "licklider" ? "p-0" : "p-4"}`}>
                 <Image
                   src={product.logo || "/placeholder.svg"}
                   alt={`${product.name} logo`}
                   fill
-                  className="object-contain opacity-95 group-hover:opacity-100 transition-opacity duration-500"
+                  className={`${product.slug === "licklider" ? "object-cover" : "object-contain"} opacity-95 group-hover:opacity-100 transition-opacity duration-500`}
                 />
               </div>
 
