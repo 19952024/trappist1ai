@@ -42,15 +42,13 @@ export const PRODUCTS: Product[] = [
   {
     name: "Licklider",
     slug: "licklider",
-    tagline: "Animate your imagination",
-    description: "Create anime scenes & trailers. Publish, grow fans, and monetize.",
-    features: ["Text-to-anime", "Character builder", "Creator economy"],
+    tagline: "You Don’t Need More GPUs",
+    description: "GPU waste detection, execution enforcement, and provable cloud cost reduction.",
+    features: ["Resource Profiler", "Execution Wrapper", "Savings Receipt"],
     links: {
       app: "https://your-licklider-app-url.com",
-      docs: "https://your-licklider-docs.com",
-      demo: "https://your-licklider-demo.com",
     },
-    colors: { base: "#FF7BC0", gradientFrom: "#2a1430", gradientTo: "#14121f", glow: "rgba(255,123,192,0.35)" },
+    colors: { base: "#F5F0E1", gradientFrom: "#2a2620", gradientTo: "#1a1814", glow: "rgba(245,240,225,0.35)" },
     logo: "/images/licklider-logo.jpg",
   },
   {
